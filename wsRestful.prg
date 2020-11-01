@@ -13,8 +13,8 @@
 #include "hbclass.ch"
 #include "error.ch"
 
-#require "hbssl"
-#require "hbhttpd"
+//#require "hbssl"
+//#require "hbhttpd"
 
 REQUEST __HBEXTERN__HBSSL__
 
@@ -46,7 +46,7 @@ PROCEDURE Main()
    Set( _SET_DATEFORMAT, "yyyy-mm-dd" )
    SET DELETE ON
 
-   rddSetDefault( "DBFCDX" )
+   //rddSetDefault( "DBFCDX" )
 
    DO CASE
    CASE ! hb_dbExists( "status.dbf" )

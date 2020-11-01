@@ -1,5 +1,4 @@
 inc=yes
-head=native
 libs=hbhttpd
 libs=hbssl
 libs=libeay32
