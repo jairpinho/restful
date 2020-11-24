@@ -1,0 +1,5 @@
+inc=yes
+libs=hbhttpd
+libs=hbssl
+libs=libeay32
+libs=ssleay32
